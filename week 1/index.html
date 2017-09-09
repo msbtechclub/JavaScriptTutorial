@@ -9,9 +9,16 @@
 
 <body>
 
-<input type="text" id="n1"/> + <input type="text" id="n2"/> = <span id="result"></span> <br><br>
+<input type="text" id="n1"/> 
+<select id="operator">
+	<option value="+">+</option>
+	<option value="-">-</option>
+	<option value="*">x</option>
+	<option value="-">/</option>
+</select> 
+<input type="text" id="n2"/> = <span id="result"></span> <br><br>
 
-<button onclick="pop()">calculate</button>
+<button onclick="calculate()">calculate</button>
 
 <script type="text/javascript" src="js/main.js"></script>
 
