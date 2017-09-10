@@ -1,0 +1,46 @@
+body {
+	max-width: 400px;
+	height: 412px;
+	margin: 100px auto;
+	font-size: 1.5em;
+	font-family: Helvetica;
+}
+table {
+	border: 1px solid black;
+}
+
+h3 {
+	text-align: center;
+}
+
+td {
+	background-color: #D7DBDD;
+	width: 100px;
+	height: 60px;
+	color: #000;
+
+}
+
+.cal-btn {
+	cursor: pointer;
+	text-align: center;
+}
+
+.cal-btn:hover {
+	background-color: #A6ACAF;
+}
+
+#equal-btn {
+	background-color: #CB4335;
+	text-align: center;
+}
+
+#equal-btn:hover {
+	cursor: pointer;
+	background-color: #B03A2E;
+}
+
+#cal-display {
+	text-align: right;
+	padding-right: 10px;
+}

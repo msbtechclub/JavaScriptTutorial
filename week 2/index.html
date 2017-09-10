@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>JavaScript - week 1</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+<h3>BTech Plus Calculator</h3>
+<table>
+	<tr>
+		<td id="cal-display" colspan="4">0</td>
+	</tr>
+	<tr>
+		<td onclick='add("7")' class="cal-btn">7</td>
+		<td onclick='add("8")' class="cal-btn">8</td>
+		<td onclick='add("9")' class="cal-btn">9</td>
+		<td onclick='add("*")' class="cal-btn">x</td>
+	</tr>
+	<tr>
+		<td onclick='add("4")' class="cal-btn">4</td>
+		<td onclick='add("5")' class="cal-btn">5</td>
+		<td onclick='add("6")' class="cal-btn">6</td>
+		<td onclick='add("+")' class="cal-btn">+</td>
+	</tr>
+	<tr>
+		<td onclick='add("1")' class="cal-btn">1</td>
+		<td onclick='add("2")' class="cal-btn">2</td>
+		<td onclick='add("3")' class="cal-btn">3</td>
+		<td onclick='add("-")' class="cal-btn">-</td>
+	</tr>
+	<tr>
+		<td onclick='add("0")' class="cal-btn">0</td>
+		<td onclick='add(".")' class="cal-btn">.</td>
+		<td onclick='add("/")' class="cal-btn">/</td>
+		<td onclick="calculate()" id="equal-btn">=</td>
+	</tr>
+</table>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
